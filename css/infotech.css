@@ -1,0 +1,118 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0; }
+
+a {
+  color: #03A9F4; }
+
+/*STYLES */
+.head {
+  position: relative;
+  background: #C62828;
+  min-height: 250px; }
+
+.main {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  min-height: 100%;
+  background-color: #f3f3f3; }
+
+/*GRID */
+.grid {
+  max-width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0; }
+  .grid .item {
+    display: block;
+    float: left;
+    padding: 16px;
+    opacity: 1; }
+  .grid .item-1 {
+    width: 100%; }
+  .grid .item-2 {
+    width: 50%; }
+  .grid .item-3 {
+    width: 33.33%; }
+  .grid .item-4 {
+    width: 25%; }
+  .grid .item-5 {
+    width: 20%; }
+
+/*PAGE LIST USER */
+.wrp-usr {
+  position: relative; }
+  .wrp-usr .content {
+    max-width: 960px;
+    margin: -10rem auto 0 auto;
+    padding: 0 1rem; }
+  .wrp-usr .grid-list {
+    position: relative;
+    background: #fff;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  .wrp-usr .title {
+    text-align: center;
+    padding-top: 1rem; }
+  .wrp-usr .body {
+    padding: 1rem 2rem; }
+  .wrp-usr .card-usr {
+    border: 1px solid #BDBDBD; }
+    .wrp-usr .card-usr .map {
+      height: 130px;
+      background: yellow; }
+    .wrp-usr .card-usr .info {
+      text-align: center;
+      padding: 1rem 0 1.5rem 0; }
+      .wrp-usr .card-usr .info .name {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: #424242;
+        margin: 0 0 0.4rem 0; }
+      .wrp-usr .card-usr .info .username {
+        margin: 0 0 1rem 0;
+        font-size: 0.9rem;
+        color: #BDBDBD; }
+      .wrp-usr .card-usr .info .address {
+        font-weight: 500;
+        font-size: 1rem;
+        color: #757575; }
+    .wrp-usr .card-usr .contact {
+      margin: 0 1rem;
+      border-top: 1px solid #E0E0E0; }
+      .wrp-usr .card-usr .contact ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0; }
+        .wrp-usr .card-usr .contact ul li {
+          padding: 0.4rem 0; }
+        .wrp-usr .card-usr .contact ul .icon {
+          padding-right: 0.4rem;
+          color: #BDBDBD;
+          font-size: 20px; }
+
+/*ICONS */
+.material-icons {
+  vertical-align: middle;
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "liga"; }
+
+/*# sourceMappingURL=infotech.css.map */
